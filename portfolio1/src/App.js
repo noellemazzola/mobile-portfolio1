@@ -1,24 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import DurationExercise from './components/DurationExercise';
+import RepetitionExercise from './components/RepetitionExercise';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className= "App">
+      <DurationExercise name= "Test 1"></DurationExercise>
+      <RepetitionExercise name= "Test 1"></RepetitionExercise>
     </div>
+
   );
 }
 
